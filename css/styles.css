@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #CE9EF4;
+}
+
+.contenedor{
+    width: 100%;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand{
+    display: flex;
+}
+
+.mini-icon{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.marca{
+    padding: 10px;
+    margin: 20px;
+    border: 4px solid;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.lista-menu{
+    list-style: none;
+    display: flex;
+    padding: 35px;
+}
+
+.lista-menu a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contenedor-banner{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    height: 100%;
+    padding: 50px;
+    
+}
+
+.banner{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.banner li{
+    margin: 30px;
+}
+
+.banner a{
+    font-size: 25px;
+}
+
+.contenedor-banner h2{
+    color: #EEEEEE;
+}
+
+.contenedor-banner p{
+    font-weight: bold;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+.espaciologo{
+    margin: 100px;
+}
+
+.logo{
+    width: 100%;
+}
+
+.botones{
+    list-style: none;
+    padding: 20px;
+    background-color: #3F53D9;
+    width: fit-content;
+    border-radius: 10px;
+    color: white;
+}
+
+.interlude{
+    
+}
+
+.servicios{
+    background-image: url(../img/interlude.jpg);
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicio{
+    width: 350px;
+    height: 500px;
+    background: #EEEEEE;
+    color: #4e346e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 80px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.servicio img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.servicio h2{
+    padding: 10px;
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 100px;
+    height: 50%;
+    align-items: center;
+}
+
+.container h2{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.card-list .card-item{
+    list-style: none;
+}
+
+.card-list .card-item .card-link{
+    width: 450px;
+    user-select: none;
+    display: block;
+    background: #EEEEEE;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: o.2s ease;
+}
+
+.card-list .card-item .card-link:hover{
+    border-color: #3F53D9;
+}
+
+.card-list .card-link .card-image{
+    max-width: 400px;
+    height: 600px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .badge {
+    padding: 0px 16px;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-list .card-link .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    width: fit-content;
+    padding: 8px 16px;
+}
+
+.footer{
+    background: #4e346e;
+    margin: 0;
+    padding: 5px;
+    color: #838383;
+    display: flex;
+}
+
+.footer .conocenos{
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer .lista-contacto{
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.footer .lista-contacto a{
+    text-decoration: none;
+    color: #838383;
+}
+
+/* REGISTRARSE */
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.registro{
+    margin: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background: #EEEEEE;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 20px #4e346e;
+    justify-content: center;
+}
+
+.espacio{
+    padding: 20px;
+}
+
+.campo{
+    padding: 20px;
+    width: 40vh;
+    border: 3px solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.boton{
+    background: #3F53D9;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Inicio de sesión */
+
+.tituloinicio{
+    text-align: center;
+    margin: 70px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.iniciosesion{
+    margin: 20px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forminicio{
+    background: #EEEEEE;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 10px 10px 20px #4e346e;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+
+.mini-icon{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}    
+
+.marca{
+    font-size: 8px;
+    padding: 10px;
+    margin: 10px 20px;
+    border: 2px solid;
+}
+
+
+.lista-menu{
+    width: fit-content;
+    flex-wrap: nowrap;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.lista-menu a{
+    font-size: 10px;
+}
+
+.contenedor-banner{
+    flex-wrap: wrap;
+}
+
+.card-list .card-item .card-link{
+    width: 600px;
+    margin-left: 85px;
+}
+
+.card-list .card-link .card-image{
+    width: 600px;
+}
+
+}
+
+@media (max-width:768px) {
+
+    .card-list .card-item .card-link{
+        width: 350px;
+        height: 350px;
+        margin: 0;
+        margin-left: 35px;
+        padding: 0;
+    }
+    
+    .card-list .card-link .card-image{
+        width: 300px;
+        height: 250px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .footer{
+        align-items: center;
+    }
+
+    .footer .lista-contacto{
+        margin: 0;
+    }
+
+}
+
+@media (min-width:375px) {
+
+    .lista-menu{
+        flex-wrap: wrap;
+    }
+    
+    .footer{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer .lista-contacto{
+        margin: 40px;
+    }
+
+}
+
+@media (max-width:320px) {
+    
+    .marca{
+        padding: 5px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .banner h2{
+        font-size: 30px;
+    }
+
+    .banner p{
+        font-size: 20px;
+    }
+
+    .banner a{
+        font-size: 15px;
+    }
+
+    .lista-menu{
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .espaciologo{
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .card-list .card-item .card-link{
+        width: 250px;
+    }
+    
+    .card-list .card-link .card-image{
+        width: 200px;
+    }
+
+    .footer{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer .lista-contacto{
+        margin: 40px;
+    }
+
+/* inicio de sesion */
+
+.tituloinicio{
+    font-size: 20px;
+}
+
+.forminicio{
+    width: 300px;
+}
+
+.campo{
+    width: 200px;
+    padding: 10px;
+}
+
+}
+
+
+
+
+
