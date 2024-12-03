@@ -230,7 +230,7 @@ body{
     background: #EEEEEE;
     padding: 20px;
     border-radius: 10px;
-    width: 800px;
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 10px 10px 20px #4e346e;
@@ -243,7 +243,7 @@ body{
 
 .campo{
     padding: 20px;
-    width: 40vh;
+    width: 100%;
     border: 3px solid;
     border-radius: 5px;
     font-size: 20px;
@@ -256,6 +256,7 @@ body{
     margin: 20px;
     border-radius: 5px;
     font-size: 15px;
+    width: 50%;
 }
 
 /* Inicio de sesión */
