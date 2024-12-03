@@ -103,7 +103,7 @@ body{
 
 .servicios{
     background-image: url(../img/interlude.jpg);
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
