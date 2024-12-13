@@ -428,6 +428,7 @@ body{
 
 .espacio{
     padding: 20px;
+    margin: 20px;
 }
 
 .campo{
@@ -442,7 +443,7 @@ body{
     background: #3F53D9;
     color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 0px 110px;
     border-radius: 5px;
     font-size: 15px;
 }
