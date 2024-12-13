@@ -339,7 +339,8 @@ body{
     padding: 50px 100px;
     text-align: justify;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    width: 80%;
+    width: 100%;
+    margin-bottom: 50px;
     border-radius: 10px;
     align-items: center;
 }
